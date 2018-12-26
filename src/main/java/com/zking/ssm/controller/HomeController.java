@@ -22,10 +22,6 @@ public class HomeController {
         return "redirect:toHome2";
     }
 
-    @RequestMapping(value = "toHome1")
-    public String toHome1(Model model){
-        return "welcome";
-    }
 
     @RequestMapping(value = "toHome2")
     public String toHome2(Model model){
